@@ -1,0 +1,39 @@
+.categories-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+.categories-icon img {
+  background-size: cover;
+  width: 82px;
+  cursor: pointer;
+}
+.explore-cat {
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: "MetropolisNF", sans-serif;
+}
+.cat-name-container {
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cat-name {
+  font-size: 12px;
+  -webkit-text-fill-color: #1a2024;
+  font-weight: bolder;
+  font-family: "MetropolisNF", sans-serif;
+}
+.cat-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

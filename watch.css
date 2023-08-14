@@ -1,0 +1,119 @@
+.watch_row {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: inherit;
+  background-color: #fafafa;
+  border-radius: 10px;
+  border: 1px solid rgb(239, 238, 238);
+}
+
+.watch_hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+.watch_hero-container img {
+  /* width: 100%; 
+  height: 100%;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;*/
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.watch_container {
+  justify-content: space-evenly;
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.watch_data {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.watch_rating {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+}
+.watch_name {
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.watch_price {
+  margin-left: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+.watch_btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -16%;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
+.watch_btn-cart {
+  width: 40%;
+  padding: 12px;
+  font: 14px;
+  font-weight: bolder;
+  background-color: #1a2024;
+  -webkit-text-fill-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.explore-watch {
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: "MetropolisNF", sans-serif;
+}
+
+.watch_feature-container {
+  text-align: center;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3%;
+  background-color: #fcc50b;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.watch_feature {
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: bolder;
+}

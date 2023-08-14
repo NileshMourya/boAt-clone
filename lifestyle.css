@@ -1,0 +1,55 @@
+.lifestyle_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-direction: column; */
+  width: auto;
+  height: auto;
+}
+.lifestyle_container_image {
+  width: 274.24px;
+  height: 407.98;
+}
+.lifestyle_container_image img {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+.lifestyle_content {
+  background-color: #eff4f7;
+  width: 274.24px;
+  height: 94.38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4px;
+  flex-direction: column;
+}
+.lifestyle_name {
+  font-size: 28px;
+  font-weight: bolder;
+  margin: 0px 0px 7.5px;
+  -webkit-text-fill-color: #1a2024;
+}
+.view {
+  -webkit-text-fill-color: #2f5b96;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.view i {
+  margin-left: 2px;
+}
+
+.explore-lifestyle {
+  margin-top: 40px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: "MetropolisNF", sans-serif;
+}
